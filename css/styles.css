@@ -1,0 +1,169 @@
+body {
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
+}
+
+a {
+    text-decoration: none
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+.visually-hidden {
+    color: #2E2F42;
+}
+
+.logo {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+
+.logo-accent {
+    color: #2E2F42;
+}
+
+.logo-accent-footer {
+    color: #F4F4FD;
+}
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-link:hover {
+    color: #404BBF;
+
+}
+
+.nav-link:active {
+    color: #404BBF;
+
+}
+
+.nav-link:focus {
+    color: #404BBF;
+
+}
+
+.mailtel {
+    font-style: normal;
+}
+
+.mailtel-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.mailtel-link:hover,
+.mailtel-link:active {
+    color: #404BBF;
+}
+
+.mailtel-link:active {
+    color: #404BBF;
+}
+
+.mailtel-link:focus {
+    color: #404BBF;
+}
+
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.batton {
+    color: #FFF;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+
+
+}
+
+.batton:hover {
+    background-color: #404BBF;
+}
+
+.batton:active {
+    background-color: #404BBF;
+}
+
+.batton:focus {
+    background-color: #404BBF;
+}
+
+.our-title {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.feature-title {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+
+
+.footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
