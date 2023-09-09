@@ -10,6 +10,31 @@ a {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+P,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+.section {
+    padding: 120px 0;
 }
 
 h1,
@@ -18,10 +43,46 @@ h2 {
 }
 
 .visually-hidden {
-    color: #2E2F42;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.header-bord {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    gap: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.mailtel-menu {
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
+    display: flex;
+    align-items: center;
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -34,6 +95,7 @@ h2 {
 
 .logo-accent {
     color: #2E2F42;
+
 }
 
 .logo-accent-footer {
@@ -41,11 +103,13 @@ h2 {
 }
 
 .nav-link {
+    display: inline-block;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 
 }
 
@@ -66,6 +130,8 @@ h2 {
 
 .mailtel {
     font-style: normal;
+    display: flex;
+    gap: 40px;
 }
 
 .mailtel-link {
@@ -92,10 +158,17 @@ h2 {
 
 .hero-section {
     background-color: #2E2F42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 188px 0;
+
 }
 
 .hero-title {
     color: #FFF;
+    max-width: 496px;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -159,6 +232,21 @@ h2 {
     background-color: #FFFFFF;
 }
 
+.footer {
+    background-color: #2E2F42;
+    padding: 100px;
+}
+
+.logo-footer {
+    color: #4D5AE5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
 
 
 .footer-text {
@@ -166,4 +254,6 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 17.5px;
 }
