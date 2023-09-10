@@ -69,18 +69,13 @@ h2 {
 
 .header-nav {
     display: flex;
-    gap: 76px;
+    align-items: center;
+
 }
 
-.nav-list {
-    display: flex;
-    gap: 40px;
-}
 
-.mailtel-menu {
-    display: flex;
-    gap: 40px;
-}
+
+
 
 .logo {
     display: flex;
@@ -92,12 +87,18 @@ h2 {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
 .logo-accent {
     color: #2E2F42;
 
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
 }
 
 
@@ -130,6 +131,11 @@ h2 {
 
 .mailtel {
     font-style: normal;
+    display: flex;
+    gap: 40px;
+}
+
+.mailtel-menu {
     display: flex;
     gap: 40px;
 }
@@ -221,10 +227,12 @@ h2 {
 .feature-list {
     display: flex;
     gap: 24px;
+
 }
 
 .feature-item {
     flex-basis: calc((100% - 72px) / 4);
+
 }
 
 
@@ -236,14 +244,14 @@ h2 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    text-align: center;
+
 }
 
 .feature-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
+
 }
 
 .team-section {
@@ -257,7 +265,7 @@ h2 {
 }
 
 .team-item {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
 }
