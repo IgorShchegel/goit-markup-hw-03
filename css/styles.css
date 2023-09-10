@@ -283,6 +283,11 @@ h2 {
     padding: 32px 0
 }
 
+.team-title,
+.team-pr {
+    text-align: center;
+}
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
