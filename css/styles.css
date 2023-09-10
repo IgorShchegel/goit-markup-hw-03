@@ -24,6 +24,8 @@ h4 {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .container {
@@ -218,7 +220,6 @@ h2 {
 .feature-list {
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
 }
 
 
@@ -245,6 +246,7 @@ h2 {
 .team-list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .team-item {
@@ -261,14 +263,25 @@ h2 {
     gap: 32px;
 }
 
-.team-title,
-.team-text {
-    text-align: center;
+.portfolio-item {
+    background-color: #FFFFFF;
+    flex-basis: calc((100%-120px)/6);
+}
+
+
+.project-card {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    margin-bottom: 48px;
 }
 
 .footer {
     background-color: #2E2F42;
-    padding: 100px;
+    padding: 100px 156px;
 }
 
 .logo-footer {
