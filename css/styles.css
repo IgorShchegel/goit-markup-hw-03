@@ -258,6 +258,7 @@ h2 {
     background-color: #F4F4FD;
 }
 
+
 .team-list {
     display: flex;
     gap: 24px;
@@ -283,6 +284,7 @@ h2 {
     padding: 32px 0
 }
 
+
 .team-title,
 .team-pr {
     text-align: center;
@@ -306,9 +308,7 @@ h2 {
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
     flex-shrink: 0;
-    margin-bottom: 48px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
